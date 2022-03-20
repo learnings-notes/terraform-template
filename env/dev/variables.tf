@@ -1,12 +1,12 @@
 variable "projectName" {
-  type = string
+  type    = string
   default = "appsvc"
 }
 variable "env" {
-  type = string
+  type    = string
   default = "dev"
 }
 variable "location" {
-  type = string
+  type    = string
   default = "eastus"
 }
