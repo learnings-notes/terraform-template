@@ -1,6 +1,6 @@
 name: 'devtest'
 
-on: [push, pull_request]
+#on: [push, pull_request]
 
 env:
   TF_LOG: INFO
