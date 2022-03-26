@@ -15,19 +15,3 @@ az ad sp create-for-rbac --name azure1-terraform-sp
 #az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/8a1b32ad-e119-4091-8703-e124f11fc6f2"
 #az login --service-principal -u "39542937-6641-4bd9-99e4-e7fca4fbdc5a" -p "Mx_w_iRL28E3JicTAPPx7KpkpdUszGorSH" --tenant "4fd1514d-311a-4354-8623-4d895779124e"
 #az login --service-principal -u "2fcaca95-2c77-4d65-b3f1-dcdce8f51a28" -p "ac6W8hSn5ETIDJ26IKp1dqRj88gm~oglt1" --tenant "4fd1514d-311a-4354-8623-4d895779124e"
-<#
-{
-    "appId": "39542937-6641-4bd9-99e4-e7fca4fbdc5a",
-    "displayName": "azure1-terraform-sp",
-    "password": "Mx_w_iRL28E3JicTAPPx7KpkpdUszGorSH",
-    "tenant": "4fd1514d-311a-4354-8623-4d895779124e"
-  } 
-  
-  {
-  "appId": "2fcaca95-2c77-4d65-b3f1-dcdce8f51a28",
-  "displayName": "azure-cli-2022-03-20-13-46-29",
-  "password": "ac6W8hSn5ETIDJ26IKp1dqRj88gm~oglt1",
-  "tenant": "4fd1514d-311a-4354-8623-4d895779124e"
-}
-  
-  #>
