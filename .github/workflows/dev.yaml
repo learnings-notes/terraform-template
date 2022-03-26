@@ -65,6 +65,7 @@ jobs:
         tf_actions_working_dir: "./env/dev"
   Prod:
     name: 'prod'
+    needs: dev
     env:
       ARM_CLIENT_ID: ${{ secrets.AZURE_AD_CLIENT_ID }}
       ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
